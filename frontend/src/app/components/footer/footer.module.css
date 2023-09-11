@@ -1,0 +1,96 @@
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+.topPart{
+    display: flex;
+}
+.left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.socialcont{
+    display: flex;
+    cursor: pointer;
+}
+.Sicons{
+    margin: 8px;
+    border-radius: 50%;
+    justify-content:center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.List{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.listitem{
+    list-style-type:none;
+    margin: 9px 9px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactform input{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    width:200px;
+}
+.button{
+    margin: 3px 3px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #34be34;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.bottomPart{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.image_part{
+}
+.desc{
+    margin-left: 20px;
+}
+.desc2{
+    width: 60vw;
+}
