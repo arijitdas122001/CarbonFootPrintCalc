@@ -1,5 +1,126 @@
-.navcont{
-    height: 50px;
-    background-color: black;
-    color: white;
+.main_nav{
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    background-color: darkseagreen;
+    grid-template-columns: 6rem 1fr 2fr 1fr 6rem;
+    box-shadow: rgba(1, 77, 2, 0.355) 0px 50px 100px -22px,
+     rgba(4, 71, 0, 0.468) 0px 30px 60px -30px;
+}
+
+@media (max-width: 1080px){
+    .main_nav{
+        height: 8rem;
+        grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    }
+
+    .logo,
+    .menu_link ul,
+    .login_signup ul{
+        height: 8rem;
+    }
+}
+
+@media (max-width: 998px) {
+    .main_nav{
+        height: 7rem;
+        grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+
+    .menu_link{
+        display: none;
+    }
+
+    .logo,
+    .login_signup{
+        height: 7rem;
+    }
+
+    .login_signup .hamburger{
+        display: block;
+        font-size: 2.0rem;
+    }
+
+    .login_signup{
+
+        grid-row: 1/2;
+        grid-column: 3/5;
+        justify-items: end;
+        align-items: center;
+        transition: all 2s linear;
+    }
+
+}
+
+.logo{
+    height: 10rem;
+    display: flex;
+    grid-column: 2/3;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h2{
+    display: flex;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-text-fill-color: azure;
+    align-items: center;
+}
+
+.logo h2 span{
+    font-size: 3.5rem;
+}
+
+.menu_link{
+    grid-column: 3/4;
+}
+
+.menu_link ul{
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menu_link ul li a{
+    color: azure;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.login_signup{
+    grid-column: 4/5;
+}
+
+.login_signup ul{
+    height: 8rem;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+    color: azure;
+    list-style: none;
+    font-size: x-large
+}
+
+.login_signup ul li{
+    text-align: right;
+}
+
+.login_signup ul li:first-child{
+    grid-column: 2/3;
+}
+
+.login_signup ul li a{
+    color: azure;
+    text-transform: capitalize;
+}
+
+.login_signup .hamburger{
+    display: none;
 }

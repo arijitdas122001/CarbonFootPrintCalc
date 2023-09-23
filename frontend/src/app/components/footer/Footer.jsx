@@ -12,7 +12,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.topPart}>
        <div className={styles.left}>
-         <h3>Explore Us</h3>
+         <h3 className={styles.heading}>Explore Us</h3>
           <ul className='List'>
             <li className={styles.listitem}>Our Mission</li>
             <li className={styles.listitem}>Total Fund</li>
@@ -22,7 +22,8 @@ const Footer = () => {
           </ul>
        </div>
        <div className={styles.middle}> 
-       <h3>Connect</h3>
+       <h3 className={styles.heading}>Connect</h3>
+       <h3 className={styles.heading}>Connect</h3>
           <ul className='List'>
             <li className={styles.listitem}>Contact Us</li>
             <li className={styles.listitem}>Helpline</li>
@@ -43,14 +44,14 @@ const Footer = () => {
             </div>
           </div>
        <div className={styles.right}>
-       <h3>Give Back</h3>
+       <h3 className={styles.heading}>Give Back</h3>
           <ul className='List'>
             <li className={styles.listitem}>Donate</li>
             <li className={styles.listitem}>Recovers Yours House</li>
           </ul>
        </div>
        <div className={styles.signup}>
-        <h3>Sign-Up And Connect</h3>
+        <h3 className={styles.heading}>Sign-Up And Connect</h3>
         <div className={styles.contactform}>
             <span>Enter Your Email:</span>
             <input type="text" placeholder='Enter Your Email'/>
@@ -69,7 +70,7 @@ const Footer = () => {
        />
         </div>
         <div className={styles.Desc}>
-          <h3>About Us</h3>
+          <h3 className={styles.heading}>About Us</h3>
           <div className={styles.desc2}>Environmental Impact Tracker and Awareness Platform:
 Build a platform that lets users track their ecological footprint based on their lifestyle choices. Utilize machine learning to analyze data and offer suggestions for reducing their impact. Incorporate interactive visualizations and social sharing features to raise awareness.
 </div>
