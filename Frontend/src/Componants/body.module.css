@@ -55,9 +55,14 @@
 .left h6{
     font-size: 20px;
     font-weight: bold;
-    color: rgb(79, 39, 39);
     font-family: Andale Mono, monospace;
 }
+
+.left h6 a{
+    color: rgb(79, 39, 39);
+    text-decoration: none;
+}
+
 
 .left h1{
     font-size: 65px;
