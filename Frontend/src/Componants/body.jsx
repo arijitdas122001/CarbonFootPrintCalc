@@ -12,7 +12,7 @@ const Body = () => {
 
         <div className={styles.left}>
             
-            <center><h6>HOW TO HELP</h6><br></br><h1>Calculate Your Carbon Footprint</h1></center>
+            <center><h6><a href="#" target='_HowToHelp'>HOW TO HELP</a></h6><br></br><h1>Calculate Your Carbon Footprint</h1></center>
         </div>
         <div className={styles.right}></div>
       </div>
