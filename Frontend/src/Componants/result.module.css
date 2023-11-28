@@ -1,0 +1,125 @@
+.section{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(202, 254, 202);
+
+}
+
+.container1{
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+
+.heading{
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading h1{
+    color:  rgb(58, 30, 30);
+    text-transform: uppercase;
+}
+
+.heading h1 span{
+    font-size: medium;
+}
+
+.emission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -390px;
+    padding-top: 60px;
+}
+
+.emission p{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.emission p span{
+    font-size: medium;
+}
+
+.container2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.heading2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  rgb(58, 30, 30);
+}
+
+.heading2 h2 span{
+    font-size: medium;
+}
+
+.heading2 hr{
+    height: 2px;
+    width: 320px;
+    background-color:  rgb(39, 20, 20);
+    border: none;
+}
+
+.container3{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.image{
+    width: 1000px;
+    height: 600px;
+    background: url(emi.jpg) no-repeat center;
+    margin-top: -5%;
+}
+
+.container4{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.content{
+    margin-top: -3%;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.content p{
+    color: rgb(41, 20, 20);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.content p span{
+    font-size: small;
+}
+
