@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import footer_img from './footer_img.jpg'
 const Footer = () => {
-  return (
+  return (   
     <div>
       <div className={styles.container}>
         <div className={styles.topPart}>

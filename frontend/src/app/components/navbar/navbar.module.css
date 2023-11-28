@@ -1,11 +1,11 @@
 .main_nav{
     width: 100%;
-    height: 10rem;
+    /* height: 7rem; */
     display: grid;
-    background-color: darkseagreen;
-    grid-template-columns: 6rem 1fr 2fr 1fr 6rem;
+    background-color: rgb(103, 136, 103);
+    /* grid-template-columns: 6rem 1fr 2fr 1fr 6rem;
     box-shadow: rgba(1, 77, 2, 0.355) 0px 50px 100px -22px,
-     rgba(4, 71, 0, 0.468) 0px 30px 60px -30px;
+     rgba(4, 71, 0, 0.468) 0px 30px 60px -30px; */
 }
 
 @media (max-width: 1080px){

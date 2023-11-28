@@ -1,0 +1,32 @@
+.container{
+    /* height: 500px; */
+    display: flex;
+    background-color: rgb(191, 187, 187);
+    background-image: linear-gradient(
+       rgb(151, 184, 151), rgb(191, 187, 187)
+    );
+}
+.left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.sp{
+    margin: 4px;
+}
+.right{
+    /* background-color: black; */
+    flex: 1;
+    height: 100%;
+}
+.img{
+    padding-top: 70px;
+    object-fit:cover;
+    width: 100%;
+}

@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
     background-color:#c7b7ba;
+    background-image: linear-gradient(
+        rgb(191, 187, 187), #c7b7ba
+    );
     height: 400px;
 }
 .left{
