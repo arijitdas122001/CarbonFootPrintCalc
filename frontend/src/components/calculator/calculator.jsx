@@ -24,7 +24,7 @@ const calculator = () => {
   
     //   // const data = await response.json();
     //   // console.log(data);
-    // setResult(data);
+    //     setResult(data);
     // } catch (error) {
     //   console.error('Error:', error);
     // }
