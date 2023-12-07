@@ -16,16 +16,7 @@ const Navbar = () => {
             <div className={styles.menu_link}>
                 <ul>
                     <li>
-                        <a href='#' target='_WhatWeDo'>what we do</a>
-                    </li>
-                    <li>
-                        <a href='#' target='_AboutUs'>about us</a>
-                    </li>
-                    <li>
                         <a href='#' target='_ChatBot'>chatbot</a>
-                    </li>
-                    <li>
-                        <a href='#' target='_Donate'>donate</a>
                     </li>
                 </ul>
             </div>
