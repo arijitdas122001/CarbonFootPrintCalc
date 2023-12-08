@@ -18,6 +18,9 @@ const Navbar = () => {
                     <li>
                         <a href='#' target='_ChatBot'>chatbot</a>
                     </li>
+                    <li>
+                        <a href='/about'>About us</a>
+                    </li>
                 </ul>
             </div>
 
